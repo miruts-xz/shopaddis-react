@@ -1,5 +1,5 @@
 {
-  "name": "shopaddis",
+  "name": "react-firebase-authentication",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,7 +8,15 @@
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "firebase": "latest",
+    "recompose": "^0.30.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/core": "latest",
+    "@material-ui/styles": "latest",
+    "clsx": "latest",
+    "react-router": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -30,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/react-router-dom": "^5.1.5"
   }
 }
